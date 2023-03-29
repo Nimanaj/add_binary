@@ -8,14 +8,14 @@ int get_length_from_str(char* str) {
 	}
 	return result;
 }
-//100% richtig
+
 void print_str(char* str, int length) {
 	for(int i = 0; i < length; i++) {
 		printf("%c", str[i]);
 	}
 	printf(" finieshed\n");
 }
-//100% richtig
+
 char* norm(char* str, int length) {
 	int index = 0;
 	int l = get_length_from_str(str);
